@@ -260,13 +260,13 @@ function App() {
       </select>
 
       <div id="state-title">{selectedState.name}</div>
-      <div id="state-description">State Description: {selectedState.description}</div>
+      <div id="state-description">{selectedState.description}</div>
 
       <div id="city-title">{selectedCity.name}</div>
-      <div id="city-description">City Description: {selectedCity.description}</div>
+      <div id="city-description">{selectedCity.description}</div>
 
       <div id="landmark-title">{selectedLandmark.name}</div>
-      <div id="landmark-description">Landmark Description: {selectedLandmark.description}</div>
+      <div id="landmark-description">{selectedLandmark.description}</div>
     </div>
   );
 }
