@@ -189,6 +189,6 @@ function App() {
       <div id="landmark-description">{selectedLandmark.description}</div>
     </div>
   );
-}
+};
 
 export default App;
